@@ -12,9 +12,9 @@ node {
           bat 'mvn install'
        }
 	   
-      stage('Sonar') {
+      /*stage('Sonar') {
                     //add stage sonar
                     sh 'mvn sonar:sonar'
-                }
+                }*/
        
 }
